@@ -1,1 +1,2 @@
 # The-Grid-Search
+This C# program converts a given time into words. The `timeInWords` function uses an array of number words to represent hours and minutes and handles special cases like exact hours, quarter past, half past, and quarter to. For minutes less than 30, it outputs “X minutes past hour,” and for minutes greater than 30, it outputs “Y minutes to next hour.” The `Main` method reads the hour and minute from input, calls the function, and prints the resulting time in words.
